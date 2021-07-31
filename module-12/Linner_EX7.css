@@ -1,0 +1,196 @@
+/*
+A - #349DAD
+B - #80EEFF
+C - #64E7FB
+D - #AD6023
+E - #FAA664
+*/
+
+/*basic styling start*/
+body {
+    background-color: #AD6023;
+    margin: 0;
+    font-family: 'Georama', Verdana, Arial, sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+header {
+    padding: 20px;
+    background-color: #349DAD;
+}
+
+header h1 {
+    font-weight: 700;
+    font-family: 'Georama', Verdana, Arial, sans-serif;
+    font-style: italic;
+    color: #FAA664;
+    font-size: 64px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #FAA664;
+}
+
+header h1 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #349DAD;
+    padding: 50px;
+    text-align: center;
+}
+
+footer address a {
+    text-decoration: none;
+    color: #AD6023;
+}
+
+footer address a:hover   {
+    color:black;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    border: 3px solid #64E7FB;
+}
+
+.div-title {
+    text-align: center;
+}
+
+/*basic styling end*/
+
+/*hobbies styling start*/
+#hobbies {
+    margin: 25px;
+}
+
+#hobbies .div-title h2 {
+    background-color: #FAA664;
+    border: 4px solid #64E7FB;
+    width: 25%;
+    margin: auto;
+    font-size: 32px;
+    height: 40px;
+}
+
+#hobbies .col-card {
+    width: 32%;
+    border: 4px solid #64E7FB;
+    background-color: #FAA664;
+    margin: 3px;
+    min-width: 400px;
+    float: left;
+    height: 600px;
+}   
+
+#hobbies .col-card .card-title {
+    font-weight: 500;
+    text-align: center;
+}
+
+#hobbies .col-card .card-content {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/*hobbies styling end*/
+
+/*experience styling starts*/
+#experience {
+    margin: 25px;
+}
+
+#experience .div-title h2 {
+    background-color: #FAA664;
+    border: 4px solid #64E7FB;
+    width: 30%;
+    margin: auto;
+    font-size: 32px;
+    height: 40px;
+}
+
+#experience .col-card {
+    width: 32%;
+    border: 4px solid #64E7FB;
+    background-color: #FAA664;
+    margin: 3px;
+    min-width: 400px;
+    float: left;
+    height: 650px;
+}
+
+#experience .col-card .card-title {
+    font-weight: 500;
+    text-align: center;
+}
+
+#experience .col-card .card-content {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.link {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #64E7FB;
+}
+
+.link a:hover {
+    color: #AD6023;
+}
+/*experience styling ends*/
+#contact {
+    min-width: 280px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*form styling starts*/
+form {
+    border: 4px solid #64E7FB;
+    background-color: #FAA664;
+}
+
+#contact form fieldset p input {
+    width: 60%;
+    float: right;
+}
+
+#contact form fieldset h3 {
+    text-align: center;
+}
+
+#submit {
+    width: 100%;
+    margin: auto;
+}
+/*form styling ends*/
+
+/*image styling starts*/
+.image {
+    text-align: center;
+    margin-bottom: 2%;
+}
+/*image styling ends*/
